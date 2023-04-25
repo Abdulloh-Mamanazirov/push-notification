@@ -6,8 +6,8 @@ btn.addEventListener("click", ()=>{
             new Notification("Hello world!", {
               body: "lorem ipsum dolor sit amet.",
               icon: "https://upload.wikimedia.org/wikipedia/commons/c/c6/Sign-check-icon.png",
-              tag:"hello",
-              vibrate
+              tag: "hello",
+              vibrate: [200, 100, 200],
             });
         }
     })
